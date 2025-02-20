@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   scroll-behavior:smooth;
+   
+}
+body{
+      
+       background:linear-gradient(255deg,#cdc0c2,#8c7a7d);
+    
+}
+.nav{
+       
+     margin:0 auto;
+     padding:10px ;
+}
+.nav ul{
+    margin-left: 1rem;
+     display: flex;
+    justify-content:space-between ;
+}
+.nav li{
+      list-style-type:none ;
+}
+.nav a{
+    right:0;
+    text-decoration:none;
+    color:black;
+}/*
+.header{
+ position:fixed; 
+ color:black; 
+  backdrop-filter:blur(10px);
+}*/
+.header{width:100%;
+  
+ color:black; 
+  backdrop-filter:blur(10px);
+}
+.nav a:hover{
+    text-decoration: underline;
+
+
+
+
+
+}
+
+#card-area{
+padding: 50px 2px;
+
+
+
+
+}
+#card-area a{
+    text-decoration:none;
+    
+}
+.box-area{
+    
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    grid-gap:90px;
+    margin-top: 10px;
+ 
+}
+.box{
+    background:rgb(112, 58, 67);
+    border-radius:10px;
+    position:relative;
+    box-shadow:5px 5px 15px pink;
+}
+.box img{
+    width: 100%;
+    border-radius:2rem;
+     box-shadow:5px 5px 15px rgb(218, 123, 138);
+
+    transform:translate 0.5s;
+}
+.over-lay{
+    height:0;
+    width: 100%;
+    background: linear-gradient(transparent,rgb(208, 187, 191) 58%);
+    left:0;
+    bottom:0;
+    position:absolute;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0 0px;
+    text-align:center;
+    font-size:9px;
+
+    transition:height 0.5s;
+    font-weight:600;
+    color: rgb(118, 46, 56);
+
+}
+.over-lay h3{
+
+    font-weight:900;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+    
+}
+ 
+.over-lay a{
+    margin-top: 10px;
+    color:pink;
+    border-radius:0.3rem;
+    background:  rgb(183, 125, 132);
+}
+.box:hover img{
+    transform:scale(1.1);
+
+
+}
+.box:hover .over-lay{
+    height:100%;
+}
+
+button{
+    
+    border-radius:5px;
+    font-size:20px;
+    font-weight:200;
+     background:  rgb(218, 186, 191);
+     color: rgb(70, 45, 47);
+}
+button:hover{
+    background-color:  rgb(183, 125, 132);
+    transform:scale(1.1);
+}
+select {
+    width: 100px;
+    padding: 10px; 
+    
+    border: 2px solid rgb(70, 45, 47); 
+    border-radius: 5px;
+    background-color: rgb(218, 186, 191);
+    color:rgb(70, 45, 47);
+    font-size: 10px
+    cursor:pointer ;
+}

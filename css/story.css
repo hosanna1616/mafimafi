@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+   scroll-behavior:smooth;
+}
+
+body{
+   background:linear-gradient(255deg,#cdc0c2,#8c7a7d);  
+    
+}
+.header{width:100%;
+ position:fixed; 
+ color:black; 
+  backdrop-filter:blur(10px);
+}
+.nav{
+    display:inline;
+}
+.nav{
+       
+     margin:0 auto;
+     padding:10px ;
+}
+.nav ul{
+    margin-left: 1rem;
+     display: flex;
+    justify-content:space-between ;
+}
+.nav li{
+      list-style-type:none ;
+}
+.headers p{
+    padding:130px 0 0;
+}
+.headers{
+    padding:90px 2rem 0;
+}
+.story{
+    padding-bottom: 0;
+    display: flex;
+    padding:1rem 0;
+}
+.story .mafi p{
+    padding-left: 12px;
+}
+
+.story .mafi{
+    
+    width:100%;
+    padding: 0 2rem 0;
+}
+.story .mafi img{
+    height: 300px;
+    border-radius:79px;
+}
+.pic{
+     background:rgb(100, 86, 88);
+    padding-top: 12px;
+    height:250px;
+  padding:1rem 1rem 1rem;  
+  width: 100%; 
+  
+}
+.pic img{
+    height:200px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.nav a{
+    right:0;
+    text-decoration:none;
+    color:black;
+}
+.nav a:hover{
+    text-decoration: underline;
+
+}
+.last{
+    padding-left: 300px;
+    height:300px;
+    width: 700px;
+}
+
+.story p{
+    padding: 0 2rem 0.2rem 0;
+    width:100%;
+}
+.newdiv{
+      align-items: center;
+}
+.secondpar .h img {
+    padding:1rem 1rem;
+    width: 100%;
+}
+.h p{
+    padding:1rem 0;
+    width: 100%;
+
+}
+.last img{
+width: 100%;
+height:200px;
+object-fit:cover;
+}
+
+
+
+.signup {
+    padding-left: 40px;
+    color:black;
+    
+}
+.last{
+    padding-left: 12px;
+    width: 400px;
+    object-fit:cover;
+}
+.stay{
+    padding-left: 100px;
+    padding-bottom: 4px;
+    font-size:22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signup input{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:3px solid   rgb(187, 154, 154);;
+}
+.icon{
+     
+    display: inline;
+    color:rgb(142, 45, 61);
+    padding-left: 350px;
+}
+.button{
+    padding-left: 150px;
+    border-radius:10px;
+    
+}
+#button:hover{
+    font-size:19px;
+    border:2px solid rgb(82, 76, 77);
+     background-color:rgb(137, 125, 126);
+    color:white;
+}
+
+.now{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+}
+input:invalid{
+    border-color:red;
+}
